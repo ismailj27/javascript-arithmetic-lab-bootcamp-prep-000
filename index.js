@@ -25,6 +25,7 @@ function dec(n) {
 }
 
 function makeInt(n) {
+<<<<<<< HEAD
   var num = parseInt(n, 10)
   return num
 }
@@ -32,5 +33,11 @@ function makeInt(n) {
 function preserveDecimal(n) {
   var num = parseFloat(n)
   return num
+=======
+  parseInt(n)
+  return n
+  n = n * 0
+  return n
+>>>>>>> b0030655d12aa2394f71331919f0a1b1e4cc6fd9
 }
 
